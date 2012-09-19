@@ -35,6 +35,16 @@
         public $slotid;
 
         public $movement = array();
+
+/*
+  { Marcin Sawicki, variables connected with fleet design verification
+*/
+	public $verify_variant = 'C'; //C - Common, U - Uncommon, R - Rare
+
+
+/*
+  } Marcin Sawicki
+*/
         
         function __construct($id, $userid, $name, $slot){
             $this->id = (int)$id;
